@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Técnica Particular de Loja</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        /* Estilo del encabezado */
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 70px;
+            margin-right: 15px;
+        }
+        header h1 {
+            flex-grow: 1;
+            text-align: center;
+            font-size: 24px;
+        }
+        /* Estilo del menú lateral */
+        .sidebar {
+            width: 200px;
+            background-color: #FFCC00;
+            padding: 15px;
+            position: fixed;
+            top: 80px; /* Altura de la cabecera */
+            bottom: 0;
+            left: 0;
+        }
+        .sidebar h2 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            color: black;
+        }
+        /* Estilo del contenido principal */
+        .main-content {
+            margin-left: 200px; /* Espacio igual al ancho del menú */
+            padding: 20px;
+            min-height: calc(100vh - 100px); /* Altura del contenido menos la cabecera y pie de página */
+            background-color: #f9f9f9;
+        }
+        /* Estilo del pie de página */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <img src="img/UTPL_color1.png" alt="Logo UTPL">
+        <h1>Universidad Técnica Particular de Loja</h1>
+    </header>
+
+    <!-- Menú lateral -->
+    <div class="sidebar">
+        <h2>☰ Menú</h2>
+        <!-- Aquí puedes agregar elementos de menú adicionales -->
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <!-- Aquí irá el contenido principal -->
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        Copyright 2024
+    </footer>
+
+</body>
+</html>
